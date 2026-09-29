@@ -15,7 +15,7 @@ Modelagem de dados, medidas DAX avançadas, tooltip de página, menu de filtros 
 
 ---
 
-<h2 align="center"> ## 📑 Sumário </h2>
+<h2 align="center"> 📑 Sumário </h2>
 
 1. [Sobre o projeto](#-sobre-o-projeto)
 2. [Objetivos e perguntas de negócio](#-objetivos-e-perguntas-de-negócio)

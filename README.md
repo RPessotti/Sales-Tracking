@@ -76,7 +76,8 @@ O dashboard foi construído para responder, de forma rápida, perguntas como:
 O modelo segue a lógica de **esquema dimensional**: uma tabela **CALENDARIO** (dimensão de tempo) se relaciona em **1:N** com as tabelas de fatos, garantindo que todas as análises temporais respondam de forma consistente aos mesmos filtros de data.
 
 <!-- 📷 INSERIR IMAGEM: exibição de modelo -->
-![Modelo de dados]()
+![Modelo de dados](<img width="1037" height="697" alt="Print  Exibicao de modelo-con vendas - Copia (2)" src="https://github.com/user-attachments/assets/06a3dd10-171a-44bc-b753-44d8c4eb32a1" />
+)
 
 ### Tabelas
 

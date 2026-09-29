@@ -136,7 +136,7 @@ CALCULATE(
 Os dois formatos produzem o mesmo resultado neste cenário. A versão booleana é mais enxuta e, em geral, mais performática. A versão com `FILTER` é a mais flexível, pois aceita condições mais complexas, como comparar colunas ou usar medidas dentro do filtro.
 
 <!-- 📷 INSERIR IMAGEM: código DAX da medida FAT CARTAO PRESENTE -->
-[DAX - FAT CARTAO PRESENTE] <img width="1037" height="182" alt="DAX MEDIDA1 con vendas" src="https://github.com/user-attachments/assets/4f20248a-11e4-4499-883c-ca76dde6e0a3" />
+<img width="1037" height="182" alt="DAX MEDIDA1 con vendas" src="https://github.com/user-attachments/assets/4f20248a-11e4-4499-883c-ca76dde6e0a3" />
 
 ---
 

@@ -55,7 +55,7 @@ O dashboard foi construído para responder, de forma rápida, perguntas como:
 
 ---
 
-## 🛠️ Tecnologias e recursos utilizados
+<h2 align="center"> 🛠️ Tecnologias e recursos utilizados</h2>
 
 | Categoria | Recurso |
 |---|---|

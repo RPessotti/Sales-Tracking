@@ -212,8 +212,10 @@ Além das três medidas detalhadas acima, o projeto conta com uma biblioteca com
 ---
 
 <h2 align="center"> 🕹️ Interatividade e experiência do usuário </h2>
+<p align ="center">
+Um dos diferenciais do projeto é a camada de navegação.</p>
+<p align ="center"> O relatório se comporta como uma pequena aplicação, e não como uma página estática.</p>
 
-Um dos diferenciais do projeto é a camada de navegação. O relatório se comporta como uma pequena aplicação, e não como uma página estática.
 
 <h2 align="center"> 🏠 Capa de navegação </h2>
 

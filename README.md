@@ -98,7 +98,7 @@ O relatório foi pensado como um produto completo, e não apenas como um conjunt
 
 ### Organização das medidas
 
-<em>Todas as medidas ficam em **tabelas próprias**, separadas dos dados brutos. Isso deixa o painel de campos limpo, facilita a manutenção e é uma forma prática de se localizar</em>
+<em>Todas as medidas ficam em **tabelas próprias**, separadas dos dados brutos. Isso deixa o painel de campos limpo, facilita a manutenção e é uma forma prática de se localizar.</em>
 
 Medidas DAX <h2 align="center"> 🧮 Medidas DAX </h2>
 

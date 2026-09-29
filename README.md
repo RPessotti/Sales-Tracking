@@ -166,7 +166,6 @@ CALCULATE(
 - O mesmo padrão foi replicado para 2018 e 2019 (`FAT CREDITO 2018` e `FAT CREDITO 2019`), permitindo comparar os anos lado a lado.
 
 <!-- 📷 INSERIR IMAGEM: código DAX da medida FAT CREDITO 2017 -->
-![DAX - FAT CREDITO 2017] 
 <img width="797" height="311" alt="DAX MEDIDA2 con vendas" src="https://github.com/user-attachments/assets/6af00e2d-450f-4cc2-bb32-8bda6139232c" />
 
 
@@ -199,7 +198,7 @@ DIVIDE(
 Além das três medidas detalhadas acima, o projeto conta com uma biblioteca completa de medidas de apoio, todas visíveis na imagem abaixo.
 
 <!-- 📷 INSERIR IMAGEM: diversas medidas e DAX -->
-![Diversas medidas e cálculos DAX] <img width="306" height="761" alt="Diversas medidasEdax-con vendas" src="https://github.com/user-attachments/assets/b51bf89a-f4b5-40ea-a5d5-ae9313999ec3" />
+<img width="306" height="761" alt="Diversas medidasEdax-con vendas" src="https://github.com/user-attachments/assets/b51bf89a-f4b5-40ea-a5d5-ae9313999ec3" />
 
 
 | Grupo | Medidas | Finalidade |
@@ -221,7 +220,7 @@ Um dos diferenciais do projeto é a camada de navegação. O relatório se compo
 A capa apresenta o título do relatório e o botão **ABRIR RELATÓRIO**, que leva o usuário à página principal.
 
 <!-- 📷 INSERIR IMAGEM: capa -->
-![Capa do relatório] <img width="1297" height="727" alt="CAPA" src="https://github.com/user-attachments/assets/e50620a5-d1ba-4282-b201-66010ab931a1" />
+<img width="1297" height="727" alt="CAPA" src="https://github.com/user-attachments/assets/e50620a5-d1ba-4282-b201-66010ab931a1" />
 
 
 
@@ -240,7 +239,7 @@ Conteúdo do menu:
 | **LIMPAR FILTRO** | Botão que remove todas as seleções de uma só vez |
 
 <!-- 📷 INSERIR IMAGEM: menu de filtro interativo -->
-![Menu de filtros interativo] <img width="581" height="345" alt="PRINT MENU-FILTRO-INTERATIVO" src="https://github.com/user-attachments/assets/1710f09b-6e12-4848-95b9-52288e9719a1" />
+<img width="581" height="345" alt="PRINT MENU-FILTRO-INTERATIVO" src="https://github.com/user-attachments/assets/1710f09b-6e12-4848-95b9-52288e9719a1" />
 
 
 ### 🔖 Indicadores (Bookmarks)
@@ -262,7 +261,7 @@ O Painel de Seleção organiza e nomeia cada objeto da página, permitindo contr
 Dar nomes claros aos objetos é uma boa prática de organização e facilita a manutenção do relatório.
 
 <!-- 📷 INSERIR IMAGEM: seleção e indicadores -->
-![Painel de Seleção e Indicadores] <img width="442" height="642" alt="PRINT  Selecao Indicadores- Controle  de vendas" src="https://github.com/user-attachments/assets/cf658afe-9d73-472c-aa58-9aa42cc8748c" />
+<img width="442" height="642" alt="PRINT  Selecao Indicadores- Controle  de vendas" src="https://github.com/user-attachments/assets/cf658afe-9d73-472c-aa58-9aa42cc8748c" />
 
 
 ---
@@ -278,7 +277,7 @@ O relatório utiliza um **tooltip de página**: uma página inteira do Power BI,
 - Com isso, o usuário obtém um segundo nível de detalhe **sem sair da página e sem poluir o layout** com mais gráficos.
 
 <!-- 📷 INSERIR IMAGEM: tooltip -->
-![Tooltip - Resumo por cartões] <img width="777" height="330" alt="PRINT TOOLTIP" src="https://github.com/user-attachments/assets/9a0c6d1e-bc45-4db2-a146-1a14736866d9" />
+<img width="777" height="330" alt="PRINT TOOLTIP" src="https://github.com/user-attachments/assets/9a0c6d1e-bc45-4db2-a146-1a14736866d9" />
 
 
 ---

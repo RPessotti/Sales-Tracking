@@ -178,7 +178,7 @@ CALCULATE(
 - O mesmo padrão foi replicado para 2018 e 2019 (`FAT CREDITO 2018` e `FAT CREDITO 2019`), permitindo comparar os anos lado a lado.
 
 <!-- 📷 INSERIR IMAGEM: código DAX da medida FAT CREDITO 2017 -->
-![DAX - FAT CREDITO 2017] <img width="432" height="51" alt="DAX MEDIDA3 con vendas - Copia" src="https://github.com/user-attachments/assets/beb2bd11-0434-402e-b6d5-693c462cb8d9" />
+![DAX - FAT CREDITO 2017] 
 <img width="797" height="311" alt="DAX MEDIDA2 con vendas" src="https://github.com/user-attachments/assets/6af00e2d-450f-4cc2-bb32-8bda6139232c" />
 
 

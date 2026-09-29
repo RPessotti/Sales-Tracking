@@ -98,16 +98,7 @@ O modelo segue a lógica de **esquema dimensional**: uma tabela **CALENDARIO** (
 
 ### Organização das medidas
 
-Todas as medidas ficam em **tabelas próprias**, separadas dos dados brutos. Isso deixa o painel de campos limpo, facilita a manutenção e é uma prática esperada em projetos profissionais.
-
-<!-- 📷 INSERIR IMAGEM: painel de dados com as medidas organizadas -->
-![Painel de dados com as medidas organizadas](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
-
-**Medidas em `FORMAS PGTO`:** `FAT CARTAO PRESENTE`, `FAT CREDITO`, `FAT CREDITO 2017`, `FAT CREDITO 2018`, `FAT CREDITO 2019`, `FAT DEBITO`, `FAT DINHEIRO`, `FAT NAO INFORMADO`, `FILTRO VENDA`, `FILTRO VENDEDOR`, `QTDE C. PRESENTE`, `QTDE CREDITO`, `QTDE DEBITO`, `QTDE DINHEIRO`, `QTDE NÃO INFO`.
-
-**Medidas em `MEDIDAS`:** `2017 X 2018`, `CANCELADO`, `CRESCIMENTO PORC`, `FAT 2017`, `FAT 2018`, entre outras.
-
----
+Todas as medidas ficam em **tabelas próprias**, separadas dos dados brutos. Isso deixa o painel de campos limpo, facilita a manutenção e é uma forma prática de se localizar
 
 ## 🧮 Medidas DAX
 
@@ -145,7 +136,7 @@ CALCULATE(
 Os dois formatos produzem o mesmo resultado neste cenário. A versão booleana é mais enxuta e, em geral, mais performática. A versão com `FILTER` é a mais flexível, pois aceita condições mais complexas, como comparar colunas ou usar medidas dentro do filtro.
 
 <!-- 📷 INSERIR IMAGEM: código DAX da medida FAT CARTAO PRESENTE -->
-![DAX - FAT CARTAO PRESENTE] <img width="1037" height="182" alt="DAX MEDIDA1 con vendas" src="https://github.com/user-attachments/assets/4f20248a-11e4-4499-883c-ca76dde6e0a3" />
+[DAX - FAT CARTAO PRESENTE] <img width="1037" height="182" alt="DAX MEDIDA1 con vendas" src="https://github.com/user-attachments/assets/4f20248a-11e4-4499-883c-ca76dde6e0a3" />
 
 ---
 

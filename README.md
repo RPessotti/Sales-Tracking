@@ -12,7 +12,8 @@ Modelagem de dados, medidas DAX avançadas, tooltip de página, menu de filtros 
 ![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
 
 <!-- 📷 INSERIR IMAGEM: capa do relatório -->
-![Capa do Relatório de Vendas](<img width="1297" height="727" alt="CAPA" src="https://github.com/user-attachments/assets/c317814d-63b5-4bdd-bd87-be85342f18b0" />)
+![Capa do Relatório de Vendas] <img width="1297" height="727" alt="CAPA" src="https://github.com/user-attachments/assets/62dbe340-cc9d-49f6-81e2-6cf3d2c8a6e7" />
+
 
 </div>
 

@@ -100,7 +100,7 @@ O relatório foi pensado como um produto completo, e não apenas como um conjunt
 
 <em>Todas as medidas ficam em **tabelas próprias**, separadas dos dados brutos. Isso deixa o painel de campos limpo, facilita a manutenção e é uma forma prática de se localizar</em>
 
-## 🧮 Medidas DAX
+Medidas DAX <h2 align="center"> 🧮 Medidas DAX </h2>
 
 <em>Abaixo estão as medidas que considero **centrais** para o projeto, explicadas uma a uma.</em>
 
@@ -211,11 +211,11 @@ Além das três medidas detalhadas acima, o projeto conta com uma biblioteca com
 
 ---
 
-## 🕹️ Interatividade e experiência do usuário
+<h2 align="center"> 🕹️ Interatividade e experiência do usuário </h2>
 
 Um dos diferenciais do projeto é a camada de navegação. O relatório se comporta como uma pequena aplicação, e não como uma página estática.
 
-### 🏠 Capa de navegação
+<h2 align="center"> 🏠 Capa de navegação </h2>
 
 A capa apresenta o título do relatório e o botão **ABRIR RELATÓRIO**, que leva o usuário à página principal.
 
@@ -224,7 +224,7 @@ A capa apresenta o título do relatório e o botão **ABRIR RELATÓRIO**, que le
 
 
 
-### 🔎 Menu de filtros interativo
+<h2 align="center"> 🔎 Menu de filtros interativo </h2>
 
 Um **menu de filtros retrátil**, aberto por um botão com ícone de hambúrguer no canto do painel, ocupa a tela como uma sobreposição e concentra todas as segmentações de dados. Assim, o dashboard fica visualmente limpo quando o menu está fechado.
 
@@ -242,7 +242,7 @@ Conteúdo do menu:
 <img width="581" height="345" alt="PRINT MENU-FILTRO-INTERATIVO" src="https://github.com/user-attachments/assets/1710f09b-6e12-4848-95b9-52288e9719a1" />
 
 
-### 🔖 Indicadores (Bookmarks)
+<h2 align="center"> 🔖 Indicadores (Bookmarks) </h2>
 
 Os indicadores guardam estados específicos do relatório e são acionados por botões. Eles são a base da navegação do projeto.
 
@@ -254,7 +254,7 @@ Os indicadores guardam estados específicos do relatório e são acionados por b
 | `BARRAS` | Alterna o visual para a versão em barras/colunas |
 | `PORC` | Alterna o visual para a versão em porcentagem |
 
-### 🗂️ Painel de Seleção
+<h2 align="center">🗂️ Painel de Seleção</h2>
 
 O Painel de Seleção organiza e nomeia cada objeto da página, permitindo controlar **o que fica visível em cada indicador**. Objetos como `MENU`, `BOTAO FILTRO + COR`, `BOTAO FECHAR + COR`, as três segmentações de dados, `BT_BARRAS` e `BT_PORC` são mostrados ou ocultados conforme o indicador acionado. Os elementos permanentes (medidores `META 2017`, `META 2018`, `META 2019`, cartões de faturamento e imagens) permanecem sempre visíveis.
 
@@ -266,7 +266,7 @@ Dar nomes claros aos objetos é uma boa prática de organização e facilita a m
 
 ---
 
-## 💬 Tooltip personalizado
+<h2 align="center">💬 Tooltip personalizado </h2>
 
 O relatório utiliza um **tooltip de página**: uma página inteira do Power BI, configurada com tamanho de tooltip e oculta da navegação, que aparece quando o usuário posiciona o mouse sobre um visual.
 
@@ -282,7 +282,8 @@ O relatório utiliza um **tooltip de página**: uma página inteira do Power BI,
 
 ---
 
-## 🖥️ O dashboard, visual por visual
+<h2 align="center"> 🖥️ O dashboard, visual por visual </h2>
+
 
 <!-- 📷 INSERIR IMAGEM: relatório de vendas (página principal) -->
 ![Página principal do relatório] <img width="1047" height="696" alt="Print Relatorio-vendas" src="https://github.com/user-attachments/assets/62f5d732-a9af-485c-a641-1ebb9f168721" />
@@ -303,7 +304,7 @@ O relatório utiliza um **tooltip de página**: uma página inteira do Power BI,
 
 ---
 
-## 💡 Principais insights
+<h2 align="center"> 💡 Principais insights </h2>
 
 Com os filtros zerados (período completo de 01/01/2017 a 31/12/2019), o relatório revela:
 
@@ -318,7 +319,7 @@ Com os filtros zerados (período completo de 01/01/2017 a 31/12/2019), o relató
 
 ---
 
-## 🏅 Por que este é um projeto Expert / Sênior
+<h2 align="center"> 🏅 Por que este é um projeto Expert / Sênior </h2>
 
 - **Modelagem dimensional** com tabela Calendário e relacionamentos 1:N.
 - **Tabelas de medidas dedicadas**, mantendo o modelo organizado e escalável.
@@ -331,7 +332,7 @@ Com os filtros zerados (período completo de 01/01/2017 a 31/12/2019), o relató
 
 ---
 
-## ▶️ Como utilizar
+<h2 align="center"> Como utilizar </h2>
 
 1. Faça o download ou clone este repositório:
    ```bash

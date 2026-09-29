@@ -34,15 +34,16 @@ Modelagem de dados, medidas DAX avançadas, tooltip de página, menu de filtros 
 
 <h2 align="center"> 📌 Sobre o projeto </h2>
 
-O **Controle de Vendas** é um relatório gerencial desenvolvido em **Power BI** que consolida as vendas de três anos (**2017, 2018 e 2019**) em uma única visão analítica. O objetivo é permitir que gestores acompanhem o faturamento, comparem períodos, avaliem o desempenho de cada vendedor, monitorem cancelamentos e entendam o comportamento das **formas de pagamento**, tudo com uma navegação limpa e interativa.
+<em>O **Controle de Vendas** é um relatório gerencial desenvolvido em **Power BI** que consolida as vendas de três anos (**2017, 2018 e 2019**) em uma única visão analítica. O objetivo é permitir que gestores acompanhem o faturamento, comparem períodos, avaliem o desempenho de cada vendedor, monitorem cancelamentos e entendam o comportamento das **formas de pagamento**, tudo com uma navegação limpa e interativa.
 
-O relatório foi pensado como um produto completo, e não apenas como um conjunto de gráficos: possui **capa de navegação**, **menu de filtros retrátil**, **botões de alternância de visual**, **tooltip de página** e uma camada de **medidas DAX organizadas em tabelas dedicadas**.
+O relatório foi pensado como um produto completo, e não apenas como um conjunto de gráficos: possui **capa de navegação**, **menu de filtros retrátil**, **botões de alternância de visual**, **tooltip de página** e uma camada de **medidas DAX organizadas em tabelas dedicadas**.</em>
+</p>
 
 ---
 
-## 🎯 Objetivos e perguntas de negócio <h2 align="center">🎯 Objetivos e perguntas de negócio</h2>
+<h2 align="center">🎯 Objetivos e perguntas de negócio</h2>
 
-O dashboard foi construído para responder, de forma rápida, perguntas como:
+<em>O dashboard foi construído para responder, de forma rápida, perguntas como:</em>
 
 - Qual foi o faturamento total e como ele se distribui por **ano**?
 - Qual o **crescimento percentual** entre um ano e outro?
@@ -70,7 +71,7 @@ O dashboard foi construído para responder, de forma rápida, perguntas como:
 
 <h2 align="center"> 🧩 Modelo de dados</h2>
 
-O modelo segue a lógica de **esquema dimensional**: uma tabela **CALENDARIO** (dimensão de tempo) se relaciona em **1:N** com as tabelas de fatos, garantindo que todas as análises temporais respondam de forma consistente aos mesmos filtros de data.
+<em> O modelo segue a lógica de **esquema dimensional**: uma tabela **CALENDARIO** (dimensão de tempo) se relaciona em **1:N** com as tabelas de fatos, garantindo que todas as análises temporais respondam de forma consistente aos mesmos filtros de data.</em>
 
 <!-- 📷 INSERIR IMAGEM: exibição de modelo -->
 <img width="1037" height="697" alt="Print  Exibicao de modelo-con vendas" src="https://github.com/user-attachments/assets/7ce06aa7-82f9-46c8-ae2f-d9a423eaf04e" /> 
@@ -97,11 +98,11 @@ O modelo segue a lógica de **esquema dimensional**: uma tabela **CALENDARIO** (
 
 ### Organização das medidas
 
-Todas as medidas ficam em **tabelas próprias**, separadas dos dados brutos. Isso deixa o painel de campos limpo, facilita a manutenção e é uma forma prática de se localizar
+<em>Todas as medidas ficam em **tabelas próprias**, separadas dos dados brutos. Isso deixa o painel de campos limpo, facilita a manutenção e é uma forma prática de se localizar</em>
 
 ## 🧮 Medidas DAX
 
-Abaixo estão as medidas que considero **centrais** para o projeto, explicadas uma a uma.
+<em>Abaixo estão as medidas que considero **centrais** para o projeto, explicadas uma a uma.</em>
 
 ### 1. `FAT CARTAO PRESENTE`: faturamento filtrado por forma de pagamento
 

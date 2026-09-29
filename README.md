@@ -12,7 +12,8 @@ Modelagem de dados, medidas DAX avançadas, tooltip de página, menu de filtros 
 ![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
 
 <!-- 📷 INSERIR IMAGEM: capa do relatório -->
-![Capa do Relatório de Vendas](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![Capa do Relatório de Vendas](<img width="1297" height="727" alt="Print CAPA-CONTROLE-DE-VENDAS " src="https://github.com/user-attachments/assets/e4651839-500b-4c97-a154-e4ad107191e7" />
+)
 
 </div>
 
@@ -76,8 +77,7 @@ O dashboard foi construído para responder, de forma rápida, perguntas como:
 O modelo segue a lógica de **esquema dimensional**: uma tabela **CALENDARIO** (dimensão de tempo) se relaciona em **1:N** com as tabelas de fatos, garantindo que todas as análises temporais respondam de forma consistente aos mesmos filtros de data.
 
 <!-- 📷 INSERIR IMAGEM: exibição de modelo -->
-![Modelo de dados](<img width="1037" height="697" alt="Print  Exibicao de modelo-con vendas - Copia (2)" src="https://github.com/user-attachments/assets/06a3dd10-171a-44bc-b753-44d8c4eb32a1" />
-)
+![Modelo de dados]()
 
 ### Tabelas
 

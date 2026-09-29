@@ -189,7 +189,7 @@ DIVIDE(
 - A medida reaproveita outras medidas (`[FAT 2019]` e `[FAT 2018]`), o que evita repetição de lógica e mantém o modelo fácil de manter.
 
 <!-- 📷 INSERIR IMAGEM: código DAX da medida CRESCIMENTO PORC -->
-![DAX - CRESCIMENTO PORC] <img width="432" height="51" alt="DAX MEDIDA3 con vendas - Copia" src="https://github.com/user-attachments/assets/91cb1cb2-ed92-4fe7-8812-19847a837b90" />
+<img width="432" height="51" alt="DAX MEDIDA3 con vendas - Copia" src="https://github.com/user-attachments/assets/91cb1cb2-ed92-4fe7-8812-19847a837b90" />
 
 
 ---

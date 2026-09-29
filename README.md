@@ -77,7 +77,7 @@ O dashboard foi construído para responder, de forma rápida, perguntas como:
 O modelo segue a lógica de **esquema dimensional**: uma tabela **CALENDARIO** (dimensão de tempo) se relaciona em **1:N** com as tabelas de fatos, garantindo que todas as análises temporais respondam de forma consistente aos mesmos filtros de data.
 
 <!-- 📷 INSERIR IMAGEM: exibição de modelo -->
-![Modelo de dados] <img width="1037" height="697" alt="Print  Exibicao de modelo-con vendas" src="https://github.com/user-attachments/assets/7ce06aa7-82f9-46c8-ae2f-d9a423eaf04e" />
+![Modelo de dados] <img width="1037" height="697" alt="Print  Exibicao de modelo-con vendas" src="https://github.com/user-attachments/assets/7ce06aa7-82f9-46c8-ae2f-d9a423eaf04e" /> 
 
 
 ### Tabelas
@@ -148,7 +148,7 @@ CALCULATE(
 Os dois formatos produzem o mesmo resultado neste cenário. A versão booleana é mais enxuta e, em geral, mais performática. A versão com `FILTER` é a mais flexível, pois aceita condições mais complexas, como comparar colunas ou usar medidas dentro do filtro.
 
 <!-- 📷 INSERIR IMAGEM: código DAX da medida FAT CARTAO PRESENTE -->
-![DAX - FAT CARTAO PRESENTE](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![DAX - FAT CARTAO PRESENTE] <img width="1037" height="182" alt="DAX MEDIDA1 con vendas" src="https://github.com/user-attachments/assets/4f20248a-11e4-4499-883c-ca76dde6e0a3" />
 
 ---
 
@@ -178,7 +178,9 @@ CALCULATE(
 - O mesmo padrão foi replicado para 2018 e 2019 (`FAT CREDITO 2018` e `FAT CREDITO 2019`), permitindo comparar os anos lado a lado.
 
 <!-- 📷 INSERIR IMAGEM: código DAX da medida FAT CREDITO 2017 -->
-![DAX - FAT CREDITO 2017](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![DAX - FAT CREDITO 2017] <img width="432" height="51" alt="DAX MEDIDA3 con vendas - Copia" src="https://github.com/user-attachments/assets/beb2bd11-0434-402e-b6d5-693c462cb8d9" />
+<img width="797" height="311" alt="DAX MEDIDA2 con vendas" src="https://github.com/user-attachments/assets/6af00e2d-450f-4cc2-bb32-8bda6139232c" />
+
 
 ---
 
@@ -199,7 +201,8 @@ DIVIDE(
 - A medida reaproveita outras medidas (`[FAT 2019]` e `[FAT 2018]`), o que evita repetição de lógica e mantém o modelo fácil de manter.
 
 <!-- 📷 INSERIR IMAGEM: código DAX da medida CRESCIMENTO PORC -->
-![DAX - CRESCIMENTO PORC](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![DAX - CRESCIMENTO PORC] <img width="432" height="51" alt="DAX MEDIDA3 con vendas - Copia" src="https://github.com/user-attachments/assets/91cb1cb2-ed92-4fe7-8812-19847a837b90" />
+
 
 ---
 
@@ -208,7 +211,8 @@ DIVIDE(
 Além das três medidas detalhadas acima, o projeto conta com uma biblioteca completa de medidas de apoio, todas visíveis na imagem abaixo.
 
 <!-- 📷 INSERIR IMAGEM: diversas medidas e DAX -->
-![Diversas medidas e cálculos DAX](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![Diversas medidas e cálculos DAX] <img width="306" height="761" alt="Diversas medidasEdax-con vendas" src="https://github.com/user-attachments/assets/b51bf89a-f4b5-40ea-a5d5-ae9313999ec3" />
+
 
 | Grupo | Medidas | Finalidade |
 |---|---|---|
@@ -229,7 +233,9 @@ Um dos diferenciais do projeto é a camada de navegação. O relatório se compo
 A capa apresenta o título do relatório e o botão **ABRIR RELATÓRIO**, que leva o usuário à página principal.
 
 <!-- 📷 INSERIR IMAGEM: capa -->
-![Capa do relatório](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![Capa do relatório] <img width="1297" height="727" alt="CAPA" src="https://github.com/user-attachments/assets/e50620a5-d1ba-4282-b201-66010ab931a1" />
+
+
 
 ### 🔎 Menu de filtros interativo
 
@@ -246,7 +252,8 @@ Conteúdo do menu:
 | **LIMPAR FILTRO** | Botão que remove todas as seleções de uma só vez |
 
 <!-- 📷 INSERIR IMAGEM: menu de filtro interativo -->
-![Menu de filtros interativo](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![Menu de filtros interativo] <img width="581" height="345" alt="PRINT MENU-FILTRO-INTERATIVO" src="https://github.com/user-attachments/assets/1710f09b-6e12-4848-95b9-52288e9719a1" />
+
 
 ### 🔖 Indicadores (Bookmarks)
 
@@ -267,7 +274,8 @@ O Painel de Seleção organiza e nomeia cada objeto da página, permitindo contr
 Dar nomes claros aos objetos é uma boa prática de organização e facilita a manutenção do relatório.
 
 <!-- 📷 INSERIR IMAGEM: seleção e indicadores -->
-![Painel de Seleção e Indicadores](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![Painel de Seleção e Indicadores] <img width="442" height="642" alt="PRINT  Selecao Indicadores- Controle  de vendas" src="https://github.com/user-attachments/assets/cf658afe-9d73-472c-aa58-9aa42cc8748c" />
+
 
 ---
 
@@ -282,14 +290,16 @@ O relatório utiliza um **tooltip de página**: uma página inteira do Power BI,
 - Com isso, o usuário obtém um segundo nível de detalhe **sem sair da página e sem poluir o layout** com mais gráficos.
 
 <!-- 📷 INSERIR IMAGEM: tooltip -->
-![Tooltip - Resumo por cartões](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![Tooltip - Resumo por cartões] <img width="777" height="330" alt="PRINT TOOLTIP" src="https://github.com/user-attachments/assets/9a0c6d1e-bc45-4db2-a146-1a14736866d9" />
+
 
 ---
 
 ## 🖥️ O dashboard, visual por visual
 
 <!-- 📷 INSERIR IMAGEM: relatório de vendas (página principal) -->
-![Página principal do relatório](COLE_O_CAMINHO_DA_IMAGEM_AQUI)
+![Página principal do relatório] <img width="1047" height="696" alt="Print Relatorio-vendas" src="https://github.com/user-attachments/assets/62f5d732-a9af-485c-a641-1ebb9f168721" />
+
 
 | Visual | O que mostra |
 |---|---|

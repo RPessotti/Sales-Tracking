@@ -1,7 +1,6 @@
 <div align="center">
 
-# 📊 Controle de Vendas — Dashboard Power BI
-
+# 📊 Controle de Vendas 
 ### Projeto de nível **Expert / Sênior** em Business Intelligence
 
 Modelagem de dados, medidas DAX avançadas, tooltip de página, menu de filtros interativo e navegação com indicadores (bookmarks).
@@ -33,7 +32,7 @@ Modelagem de dados, medidas DAX avançadas, tooltip de página, menu de filtros 
 
 ---
 
-## 📌 Sobre o projeto
+<h2 align="center"> 📌 Sobre o projeto </h2>
 
 O **Controle de Vendas** é um relatório gerencial desenvolvido em **Power BI** que consolida as vendas de três anos (**2017, 2018 e 2019**) em uma única visão analítica. O objetivo é permitir que gestores acompanhem o faturamento, comparem períodos, avaliem o desempenho de cada vendedor, monitorem cancelamentos e entendam o comportamento das **formas de pagamento**, tudo com uma navegação limpa e interativa.
 
@@ -41,7 +40,7 @@ O relatório foi pensado como um produto completo, e não apenas como um conjunt
 
 ---
 
-## 🎯 Objetivos e perguntas de negócio
+## 🎯 Objetivos e perguntas de negócio <h2 align="center">🎯 Objetivos e perguntas de negócio</h2>
 
 O dashboard foi construído para responder, de forma rápida, perguntas como:
 
@@ -55,7 +54,7 @@ O dashboard foi construído para responder, de forma rápida, perguntas como:
 
 ---
 
-<h2 align="center"> 🛠️ Tecnologias e recursos utilizados</h2>
+<h2 align="center"> 🛠️ Tecnologias e recursos utilizados </h2>
 
 | Categoria | Recurso |
 |---|---|

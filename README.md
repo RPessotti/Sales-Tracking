@@ -288,7 +288,7 @@ O relatório utiliza um **tooltip de página**: uma página inteira do Power BI,
 
 
 <!-- 📷 INSERIR IMAGEM: relatório de vendas (página principal) -->
-![Página principal do relatório] <img width="1047" height="696" alt="Print Relatorio-vendas" src="https://github.com/user-attachments/assets/62f5d732-a9af-485c-a641-1ebb9f168721" />
+<img width="1047" height="696" alt="Print Relatorio-vendas" src="https://github.com/user-attachments/assets/62f5d732-a9af-485c-a641-1ebb9f168721" />
 
 
 | Visual | O que mostra |
@@ -334,16 +334,39 @@ Com os filtros zerados (período completo de 01/01/2017 a 31/12/2019), o relató
 
 ---
 
-<h2 align="center"> Como utilizar </h2>
+<h2 align="center">▶️ Como acessar e utilizar o dashboard</h2>
 
-1. Faça o download ou clone este repositório:
-   ```bash
-   git clone https://github.com/RPessotti/NOME-DO-REPOSITORIO.git
-   ```
-2. Abra o arquivo `.pbix` no **Power BI Desktop**.
-3. Use o botão **ABRIR RELATÓRIO** na capa para acessar o dashboard.
-4. Explore os filtros pelo ícone de menu, passe o mouse sobre os vendedores para ver o tooltip e utilize os botões de alternância de visual.
+### 🔗 Como acessar
+[**Clique aqui para abrir o dashboard**](https://app.powerbi.com/view?r=eyJrIjoiYzQwMjMxNGItYmU1MS00NGNkLWI3YmEtZjFjOGFhNTU5YzMzIiwidCI6IjY1NWFhNjFkLTVkY2ItNDE4Mi05N2YxLTJmNTQ5MTlkZTBjZiJ9)
 
+O relatório abre direto no navegador. Para ver melhor, use o ícone de **tela cheia** no canto inferior direito da barra do Power BI.
+
+<h2 align="center"> 🖱️ Como mexer no relatório online </h2>
+
+
+1. **Capa:** clique em **ABRIR RELATÓRIO** para entrar na página principal.
+2. **Filtros:** clique no **ícone de menu** (três linhas, no canto superior direito) para abrir o painel de filtros. Nele você escolhe o **vendedor**, a **forma de pagamento** e o **período**.
+3. **Fechar ou limpar:** use **FECHAR** para esconder o painel e **LIMPAR FILTRO** para remover todas as seleções de uma vez.
+4. **Tooltip:** passe o mouse sobre um vendedor no gráfico **Faturado x Cancelado** para ver o resumo dele por cartão de crédito e débito.
+5. **Alternar visuais:** use os botões de **barras** e **porcentagem** para trocar a forma de visualização.
+6. **Comparar períodos:** no gráfico **Faturamento | 2017 x 2018**, clique no botão de **reprodução (▶)** para ver a evolução dia a dia.
+7. **Detalhar uma venda:** clique em um vendedor ou em uma linha da tabela **Resumo de Vendas**. Os cartões **VENDEDOR** e **VALOR VENDA** mostram a seleção.
+
+> 💡 **Dica:** clicar em qualquer barra ou coluna filtra os outros gráficos da página. Clique de novo no mesmo item para remover o filtro.
+
+<h2 align="center"> 🎛️ Resumo dos controles </h2>
+
+
+| Controle | O que faz |
+|---|---|
+| ☰ Menu | Abre o painel de filtros |
+| Vendedor | Filtra o relatório por vendedor |
+| Forma de pagamento | Filtra por crédito, débito, cartão presente ou não informado |
+| Data | Define o período analisado |
+| LIMPAR FILTRO | Volta ao relatório completo |
+| Botões barras / porcentagem | Alternam o tipo de visual |
+| Botão "▶"| Altera para gráfico de barras ou para gráfico de porcentagem 2017 x 2018 |
+| Passar o mouse | Mostra o tooltip com o resumo por cartões |
 > **Requisito:** Power BI Desktop (versão gratuita), disponível no site oficial da Microsoft.
 
 ---
